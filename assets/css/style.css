@@ -1,0 +1,77 @@
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+body {
+        font-size: 16px;
+        font-family: 'Krub', sans-serif;
+
+    }
+
+header{
+    margin: 0 auto;
+    padding: 0 20rem 0 20rem;
+ 
+}
+main{
+    padding: 0 20rem 0 20rem;
+    
+}
+h1{
+    text-align: center;
+    font-size: 10rem;
+}
+h2{
+    font-size: 5rem;
+}
+h3{
+    font-size: 3rem;
+}
+
+.contenedor-principal{
+    display: flex;
+}
+#contenedor{
+    display: flex;
+    
+    gap: 20rem;
+}
+#contenedor-tareas{
+    display: flex;
+    gap: 5rem;
+    margin: 0 auto;
+}
+
+.input-inicio{
+    width: 100rem;
+    height: 4rem;
+    border: 1px solid black;
+}
+
+ul{
+    padding-left: 0;
+   
+}
+li{
+    list-style: none;
+    font-size: 3.5rem;
+    display: flex;
+    align-items: center;
+    
+}
+
+.btn-inicio{
+    font-size: 3rem;
+    
+}
+.checkbox{
+    width: 3rem;
+    height: 3rem;
+}
+
+.btn-eliminar{
+    width: 3rem;
+    height: 3rem;
+    margin-left: 3rem;
+}
